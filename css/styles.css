@@ -11,3 +11,49 @@
 .container {
 	padding-top: 10px;
 }
+
+.row {
+	padding: 10px;
+	margin: 10px;
+}
+
+#tripForOne {
+	border: 1px solid #af4936;
+	background-color: #bc6454;
+}
+
+#tripForTwo {
+	background-image: url('../img/disneyland.jpg');
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: center;
+	max-width: 100%;
+	max-height: 100%;
+	background-repeat: no-repeat;
+	color: white;
+}
+
+#tripForFamily {
+	border: 1px solid #af4936;
+	background-color: #bc6454;
+}
+
+li a:link {
+	color: #a01181;
+}
+
+li a:hover {
+	color: #62d666;
+}
+
+li a:visited {
+	color: #423537;
+}
+
+ul {
+	list-style-type: none;
+}
+
+a:visited.linkColor {
+	color: white;
+}
